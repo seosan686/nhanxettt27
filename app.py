@@ -147,7 +147,7 @@ if st.button("🚀 TẠO NGÂN HÀNG NHẬN XÉT (EXCEL)"):
         my_bar = st.progress(0, text=progress_text)
         
         try:
-            model = genai.GenerativeModel('gemini-2.5-flash-lite-preview-09-2025')
+            model = genai.GenerativeModel('gemini-3-flash-lite-preview')
             
             # Xử lý file upload một lần
             file_contents = []
